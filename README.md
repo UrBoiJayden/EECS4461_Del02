@@ -4,7 +4,28 @@ A Mesa-based computational model based on the Schelling Segregation model for ex
 
 The model includes three categories: Fitness, Cooking, and Gaming. It uses three simulated users with different preferences to calculate individual and overall trend scores.
 
-The project investigates how changing the sensitivity of the recommendation system affects user preferences and the overall ranking of trends.
+For the project’s inquiry question, rationale, representation choices, assumptions, interpretation of results, and proposed next steps, refer to the DEL02.1 report.
+
+## Original Mesa Example
+
+The original example used as the basis for this project is Mesa’s Schelling Segregation Model.
+
+Its preserved source code is located in:
+
+src/schelling/
+
+The SOURCE.md file contains the original source information, version details, and attribution.
+
+
+## Adapted Project Model
+
+Our adapted social media trends simulation is located in:
+
+src/project_model/model.py
+
+It uses user and trend agents to represent different content categories and investigates how recommendation system sensitivity influences individual and overall trend rankings.
+
+
 
 ## Model Description
 
