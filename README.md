@@ -60,6 +60,14 @@ outputs/
 
 These outputs allow the baseline and alternative sensitivity conditions to be compared
 
+## Commands 
+
+python -m pip install -U mesa    Installs mesa 
+
+python -c "import mesa; print('Mesa installed successfully!')"    checks to see if mesa installed
+
+python model.py    this runs the code
+
 ## Configuration, Input Files, and Run-Time Limitations
 
 ### Configuration
