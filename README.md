@@ -32,21 +32,20 @@ The Mesa version used to run this code is 3.5.2
 Python can be downloaded from the official ⁠Python website: https://www.python.org/downloads/
 
 ## Model Description
-
 Users
 
 * Represent simulated social media users.
 * Each user has preferences for Fitness, Cooking, and Gaming.
-* Preferences are represented using values from 0 to 3. If the value is 0, this means the user likes 0 videos from that trend, if the value is 3, that means the user liked 3 videos from that trend.
+* Preferences range from 0 to 3, representing how many videos the user liked within each category.
+* A value of 0 means the user liked none of the three videos, while a value of 3 means they liked all three videos.
 * Each preference is converted into a personal trend score.
 
 Trends
 
-* Represents the three content categories: Fitness, Cooking, and Gaming.
+* Represent the three content categories: Fitness, Cooking, and Gaming.
 * Each trend calculates the personal scores associated with that category across all users.
 * The average personal score is calculated for each trend.
 * The recommendation system’s sensitivity is applied to each user’s personal score to calculate their adjusted trend scores.
-
 
 ## Outputs
 The adapted model produces two types of results:
