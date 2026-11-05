@@ -1,1 +1,2 @@
-
+# The Python version needed to run the code, and the one we used is 3.15.2
+# The Mesa version used to run this code is 3.5.2
