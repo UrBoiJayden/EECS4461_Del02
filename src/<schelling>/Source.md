@@ -23,6 +23,6 @@ Schelling's Segregation Model
 
 ## Modifications
 
-- [Describe any modifications made to the original example.]
+- No modifications have been made to the original Mesa example files. The original agents.py, model.py, and app.py files have stayed unchanged.
 
-- [Mention any files or components that were added, removed, or changed.]
+- Modifications and extensions for this assignment will be implemented separately in the project_model directory.
