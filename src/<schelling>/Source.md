@@ -6,9 +6,9 @@ Schelling's Segregation Model
 
 ## Source
 
-- Original URL: https://github.com/mesa/mesa/tree/main/mesa/examples/basic/schelling
+- Original URL: https://mesa.readthedocs.io/stable/examples/basic/schelling.html
 
-- Author/Organization: [ORIGINAL AUTHOR OR MESA]
+- Author/Organization: Project Mesa
 
 - Access Date: November 4, 2026
 
