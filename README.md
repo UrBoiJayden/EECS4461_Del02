@@ -37,7 +37,7 @@ Users
 
 * Represent simulated social media users.
 * Each user has preferences for Fitness, Cooking, and Gaming.
-* Preferences are represented using values from 0 to 3.
+* Preferences are represented using values from 0 to 2.
 * Each preference is converted into a personal trend score.
 
 Trends
