@@ -26,6 +26,10 @@ src/project_model/model.py
 It uses user and trend agents to represent different content categories and investigates how recommendation system sensitivity influences individual and overall trend rankings.
 
 
+## Software Requirements
+The Python version needed to run the code, and the one we used is 3.15.2. Python 3.11 or later should work.
+The Mesa version used to run this code is 3.5.2
+Python can be downloaded from the official ⁠Python website: https://www.python.org/downloads/
 
 ## Model Description
 
@@ -42,3 +46,16 @@ Trends
 * Each trend calculates the personal scores associated with that category across all users.
 * The average personal score is calculated for each trend.
 * The recommendation system’s sensitivity is applied to calculate adjusted scores.
+
+
+## Outputs
+The adapted model produces two types of results:
+
+* Individual user rankings for Fitness, Cooking, and Gaming.
+* Overall rankings and scores for each trend.
+
+The submitted output files are located in:
+
+outputs/
+
+These outputs allow the baseline and alternative sensitivity conditions to be compared
