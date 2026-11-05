@@ -1,4 +1,4 @@
-Original Mesa Example Source
+#Original Mesa Example Source
 
 ## Example Name
 
@@ -6,7 +6,7 @@ Schelling's Segregation Model
 
 ## Source
 
-- Original URL: 
+- Original URL: https://github.com/mesa/mesa/tree/main/mesa/examples/basic/schelling
 
 - Author/Organization: [ORIGINAL AUTHOR OR MESA]
 
