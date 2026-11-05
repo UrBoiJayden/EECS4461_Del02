@@ -37,7 +37,7 @@ Users
 
 * Represent simulated social media users.
 * Each user has preferences for Fitness, Cooking, and Gaming.
-* Preferences are represented using values from 0 to 2.
+* Preferences are represented using values from 0 to 3. If the value is 0, this means the user likes 0 videos from that trend, if the value is 3, that means the user liked 3 videos from that trend.
 * Each preference is converted into a personal trend score.
 
 Trends
