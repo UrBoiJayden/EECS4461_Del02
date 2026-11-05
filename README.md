@@ -62,15 +62,15 @@ These outputs allow the baseline and alternative sensitivity conditions to be co
 
 ## Configuration, Input Files, and Run-Time Limitations
 
-Configuration
+### Configuration
 
-The model uses a sensitivity parameter to control how strongly average trend scores influence individual users’ adjusted scores.
+The model uses a sensitivity parameter to control how strongly average trend scores influence individual users’ adjusted scores and overall trend averages.
 
-Input Files
+### Input Files
 
-The adapted model currently uses predefined user preferences within model.py. No external datasets or input files are required.
+The adapted model currently uses predefined user preferences within model.py, that can be adjusted by changing the values in lines. No external datasets or input files are required.
 
-Run-Time Limitations
+### Run-Time Limitations
 
 * The simulation uses three predefined users.
 * The model represents three content categories: Fitness, Cooking, and Gaming.
