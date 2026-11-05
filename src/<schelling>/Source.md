@@ -12,7 +12,7 @@ Schelling's Segregation Model
 
 - Access Date: November 4, 2026
 
-- Version/Commit: [VERSION OR COMMIT, IF AVAILABLE]
+- Version/Commit: ???????
 
 ## License and Attribution
 
