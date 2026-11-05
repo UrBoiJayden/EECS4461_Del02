@@ -59,3 +59,20 @@ The submitted output files are located in:
 outputs/
 
 These outputs allow the baseline and alternative sensitivity conditions to be compared
+
+## Configuration, Input Files, and Run-Time Limitations
+
+Configuration
+
+The model uses a sensitivity parameter to control how strongly average trend scores influence individual users’ adjusted scores.
+
+Input Files
+
+The adapted model currently uses predefined user preferences within model.py. No external datasets or input files are required.
+
+Run-Time Limitations
+
+* The simulation uses three predefined users.
+* The model represents three content categories: Fitness, Cooking, and Gaming.
+* User preferences are predefined rather than collected from real social media interactions.
+* The simulation represents a simplified recommendation system rather than an actual social media platform.
