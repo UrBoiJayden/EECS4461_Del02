@@ -68,7 +68,7 @@ The model uses a sensitivity parameter to control how strongly average trend sco
 
 ### Input Files
 
-The adapted model currently uses predefined user preferences within model.py, that can be adjusted by changing the values in lines. No external datasets or input files are required.
+The adapted model currently uses predefined user preferences within model.py, that can be adjusted by changing the values in the lines under the comment "Three users with scores from 0-3" . No external datasets or input files are required.
 
 ### Run-Time Limitations
 
