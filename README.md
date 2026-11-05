@@ -17,7 +17,7 @@ Users
 
 Trends
 
-* Represent the three content categories: Fitness, Cooking, and Gaming.
+* Represents the three content categories: Fitness, Cooking, and Gaming.
 * Each trend calculates the personal scores associated with that category across all users.
 * The average personal score is calculated for each trend.
 * The recommendation system’s sensitivity is applied to calculate adjusted scores.
