@@ -27,7 +27,7 @@ It uses user and trend agents to represent different content categories and inve
 
 
 ## Software Requirements
-The Python version needed to run the code, and the one we used is 3.15.2. Python 3.11 or later should work.
+The Python version needed to run the code, and the one we used is 3.15.2. For python, we used Python 3.11 .
 The Mesa version used to run this code is 3.5.2
 Python can be downloaded from the official ⁠Python website: https://www.python.org/downloads/
 
