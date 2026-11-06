@@ -57,7 +57,7 @@ The submitted output files are located in:
 
 outputs/
 
-These outputs allow the baseline and alternative sensitivity conditions to be compared
+These outputs allow the baseline and alternative sensitivity conditions to be compared, they are shown in .txt files
 
 ## Commands 
 
