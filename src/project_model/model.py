@@ -164,11 +164,11 @@ def run_and_save(label, sensitivity, filename):
     output_file.write_text(output, encoding="utf-8")
 
 #BASELINE
-run_and_save("BASELINE", 0, "baseline.txt")
+run_and_save("BASELINE", 0, "baseline_raw_00_adjusted_trend_scores.txt")
 
 #ALTERNATIVE 1
-run_and_save("ALTERNATIVE 1", 1, "alternative_1.txt")
+run_and_save("ALTERNATIVE 1", 1, "alternative_raw_00_adjusted_trend_scores_sensitivity_1.txt")
 
 #ALTERNATIVE 2
-run_and_save("ALTERNATIVE 2", 2, "alternative_2.txt")
+run_and_save("ALTERNATIVE 2", 2, "alternative_raw_01_adjusted_trend_scores_sensitivity_2.txt")
 print("Files saved to:", output_folder.resolve())
