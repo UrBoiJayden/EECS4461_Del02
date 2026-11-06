@@ -1,0 +1,24 @@
+
+========== BASELINE (Sensitivity = 0) ==========
+
+Adjusted User Trend Scores:
+
+User 1:
+  1. Cooking: 15.00
+  2. Gaming: 15.00
+  3. Fitness: 5.00
+
+User 2:
+  1. Fitness: 15.00
+  2. Gaming: -5.00
+  3. Cooking: -15.00
+
+User 3:
+  1. Fitness: -5.00
+  2. Cooking: -5.00
+  3. Gaming: -15.00
+
+Overall Trend Rankings:
+1. Fitness = 5.00 
+2. Cooking = -1.67 
+3. Gaming = -1.67 

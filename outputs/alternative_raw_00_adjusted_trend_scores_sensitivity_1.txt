@@ -1,0 +1,24 @@
+
+========== ALTERNATIVE 1 (Sensitivity = 1) ==========
+
+Adjusted User Trend Scores:
+
+User 1:
+  1. Cooking: 13.33
+  2. Gaming: 13.33
+  3. Fitness: 10.00
+
+User 2:
+  1. Fitness: 20.00
+  2. Gaming: -6.67
+  3. Cooking: -16.67
+
+User 3:
+  1. Fitness: 0.00
+  2. Cooking: -6.67
+  3. Gaming: -16.67
+
+Overall Trend Rankings:
+1. Fitness = 10.00 
+2. Cooking = -3.33 
+3. Gaming = -3.33 
