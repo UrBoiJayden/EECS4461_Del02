@@ -1,5 +1,9 @@
 from mesa import Agent, Model
+from pathlib import Path
 
+from contextlib import redirect_stdout
+
+from io import StringIO
 
 # A user with preferences for different trends
 class User(Agent):
@@ -114,16 +118,57 @@ class SocialMediaModel(Model):
             )
 
 # BASELINE
-print("\n========== BASELINE (Sensitivity = 0) ==========")
-baseline = SocialMediaModel(0)
-baseline.step()
+#print("\n========== BASELINE (Sensitivity = 0) ==========")
+#baseline = SocialMediaModel(0)
+#baseline.step()
 
 # ALTERNATIVE 1
-print("\n========== ALTERNATIVE (Sensitivity = 1) ==========")
-alternative = SocialMediaModel(1)
-alternative.step()
+#print("\n========== ALTERNATIVE (Sensitivity = 1) ==========")
+#alternative = SocialMediaModel(1)
+#alternative.step()
 
 # ALTERNATIVE 2
-print("\n========== ALTERNATIVE (Sensitivity = 2) ==========")
-alternative2 = SocialMediaModel(2)
-alternative2.step()
+#print("\n========== ALTERNATIVE (Sensitivity = 2) ==========")
+#alternative2 = SocialMediaModel(2)
+#alternative2.step()
+
+#Create the outputs folder
+output_folder = Path(__file__).resolve().parent / "outputs"
+output_folder.mkdir(exist_ok=True)
+
+#Run the model and save its results
+def run_and_save(label, sensitivity, filename):
+
+    results = StringIO()
+
+    with redirect_stdout(results):
+
+        print(f"\n========== {label} (Sensitivity = {sensitivity}) ==========")
+
+        model = SocialMediaModel(sensitivity)
+
+        model.step()
+
+    # Get the results
+
+    output = results.getvalue()
+
+    # Display results in the terminal
+
+    print(output)
+
+    # Save results to a text file
+
+    output_file = output_folder / filename
+
+    output_file.write_text(output, encoding="utf-8")
+
+#BASELINE
+run_and_save("BASELINE", 0, "baseline.txt")
+
+#ALTERNATIVE 1
+run_and_save("ALTERNATIVE 1", 1, "alternative_1.txt")
+
+#ALTERNATIVE 2
+run_and_save("ALTERNATIVE 2", 2, "alternative_2.txt")
+print("Files saved to:", output_folder.resolve())
