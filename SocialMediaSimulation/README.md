@@ -41,8 +41,6 @@ Users:
 * Each preference is converted into a personal trend score.
 * The trend score goes by +5 points for interested videos and -5 for not interested.  So if a user liked 0 videos it would be -5-5-5 = -15
   if they liked 1 video it would be -5-5+5 = -5, if they liked 2 videos the score would be 5+5-5 = 5, if they liked all 3 videos of a trend it would be 5+5+5 = 15
-* For deliverable 3, our code simulates 10 users rather than 3 to have more effective data.  As well, if any ties occur, the data will look at the average user        ranking and the higher ranking will be placed above the feed that it was tied with.  An example would be if cooking and fitness are tied, if the average user
-  ranking is fitness, then cooking, then gaming, fitness would win the tie and be ranked higher than cooking. 
 
 Trends:
 
@@ -50,6 +48,11 @@ Trends:
 * Each trend calculates the personal scores based on that category across all users.
 * The average personal score is calculated for each trend.
 * The recommendation system’s sensitivity is applied to each user’s personal score to calculate their adjusted trend scores.
+
+# What changed after DEL02.
+* For deliverable 3, our code simulates 10 users rather than 3 to have more effective data.  As well, if any ties occur, the data will look at the average user        ranking and the higher ranking will be placed above the feed that it was tied with.  An example would be if cooking and fitness are tied, if the average user
+  ranking is fitness, then cooking, then gaming, fitness would win the tie and be ranked higher than cooking. 
+
 
 ## Outputs
 The adapted model produces two types of results:
