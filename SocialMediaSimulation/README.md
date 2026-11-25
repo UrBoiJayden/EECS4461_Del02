@@ -49,7 +49,7 @@ Trends:
 * The average personal score is calculated for each trend.
 * The recommendation system’s sensitivity is applied to each user’s personal score to calculate their adjusted trend scores.
 
-# What changed after DEL02.
+## What changed after DEL02.
 * For deliverable 3, our code simulates 10 users rather than 3 to have more effective data.  As well, if any ties occur, the data will look at the average user        ranking and the higher ranking will be placed above the feed that it was tied with.  An example would be if cooking and fitness are tied, if the average user
   ranking is fitness, then cooking, then gaming, fitness would win the tie and be ranked higher than cooking. 
 
